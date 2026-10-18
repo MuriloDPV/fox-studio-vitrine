@@ -1,0 +1,24 @@
+{
+  "_sobre": "Exemplo ilustrativo, com números inventados. Depois de cada execução, o sistema compara o registro de rede com o que o agente relatou e grava um veredito. 'Não sei' nunca vira 'está certo'.",
+  "relato_do_agente": {
+    "turnos": 2,
+    "duracao_ms": 13500,
+    "tokens_de_entrada": 65000,
+    "tokens_de_saida": 900
+  },
+  "registro_de_rede": {
+    "conexoes_abertas": 3,
+    "conexoes_fechadas": 3,
+    "bytes_enviados": 190000,
+    "bytes_recebidos": 16000,
+    "destinos_fora_da_lista": 0
+  },
+  "veredito": "conciliado",
+  "outros_vereditos_possiveis": [
+    "divergente: abertura-sem-fechamento",
+    "divergente: subida-acima-da-faixa",
+    "divergente: recusa",
+    "ilegivel: sem-log",
+    "ilegivel: sem-relato"
+  ]
+}

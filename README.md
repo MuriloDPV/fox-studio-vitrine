@@ -31,6 +31,15 @@ Nenhuma mudança de segurança entra no código principal sem passar pela revis�
 - cada etapa importante com **relatório de auditoria** e métricas registradas sessão a sessão;
 - **backup cifrado diário**, testado com uma restauração de verdade toda noite e guardado fora do servidor.
 
+## Veja de perto
+
+- [A arquitetura, com o fluxo de uma tarefa](ARQUITETURA.md)
+- [Como é um relatório de auditoria](exemplo-relatorio-de-auditoria.md)
+- [O padrão "controle invertido" num teste](exemplo-teste-controle-invertido.ts)
+- [O veredito da conciliação depois de uma execução](exemplo-veredito-conciliacao.json)
+
+Os exemplos são ilustrativos: mostram a forma do trabalho, sem os detalhes internos.
+
 ## Próximos passos
 
 - fechar o marco de segurança do executor;

@@ -2,6 +2,22 @@
 
 Uma visão de alto nível. Os detalhes de infraestrutura ficam no repositório privado.
 
+## O fluxo de uma tarefa
+
+```mermaid
+flowchart LR
+    A[Tarefa com critérios de aceite] --> B{Motor de decisão}
+    B -->|dentro dos limites| C[Executor isolado<br/>Claude Code, sem root]
+    B -->|precisa de aprovação| H[Humano aprova<br/>bot ou console]
+    H --> C
+    C --> D[Conferência de fora<br/>o sistema mede o que mudou]
+    D --> E{Critérios cumpridos?}
+    E -->|sim| F[Entrega, com relatório]
+    E -->|não| G[Falha registrada<br/>com o motivo]
+    C -. cada conexão registrada .-> R[Conciliação<br/>registro x relato do agente]
+    R --> D
+```
+
 ## As peças
 
 - **Grafo de tarefas:** o trabalho é dividido em tarefas com dependências, critérios de aceite e dono. Nenhuma tarefa "acaba" sem os critérios conferidos.
