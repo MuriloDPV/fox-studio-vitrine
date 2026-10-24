@@ -27,12 +27,13 @@ Nenhuma mudança de segurança entra no código principal sem passar pela revis�
 
 ## Em números
 
-- mais de **5.500 testes automatizados**;
+- mais de **6.000 testes automatizados**;
 - cada etapa importante com **relatório de auditoria** e métricas registradas sessão a sessão;
 - **backup cifrado diário**, testado com uma restauração de verdade toda noite e guardado fora do servidor.
 
 ## Veja de perto
 
+- [O diário: cada etapa fechada, contada em português simples](diario/README.md)
 - [A arquitetura, com o fluxo de uma tarefa](ARQUITETURA.md)
 - [Como é um relatório de auditoria](exemplo-relatorio-de-auditoria.md)
 - [O padrão "controle invertido" num teste](exemplo-teste-controle-invertido.ts)
@@ -42,8 +43,8 @@ Os exemplos são ilustrativos: mostram a forma do trabalho, sem os detalhes inte
 
 ## Próximos passos
 
-- fechar o marco de segurança do executor;
-- revisão externa da arquitetura por outras IAs;
+- já fechados: a contenção do agente, a revisão da arquitetura por IAs de outras empresas e a confiança no resultado (veja o [diário](diario/README.md));
+- revisão externa do código por IAs de outras empresas;
 - o laço autônomo: o FOX Studio escolhendo, executando e entregando tarefas sozinho, com as provas no lugar.
 
 ## Quem constrói
