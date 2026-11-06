@@ -27,7 +27,7 @@ Nenhuma mudança de segurança entra no código principal sem passar pela revis�
 
 ## Em números
 
-- mais de **6.000 testes automatizados**;
+- mais de **8.000 testes automatizados**;
 - cada etapa importante com **relatório de auditoria** e métricas registradas sessão a sessão;
 - **backup cifrado diário**, testado com uma restauração de verdade toda noite e guardado fora do servidor.
 
@@ -41,11 +41,17 @@ Nenhuma mudança de segurança entra no código principal sem passar pela revis�
 
 Os exemplos são ilustrativos: mostram a forma do trabalho, sem os detalhes internos.
 
+## Onde estamos
+
+- **Já fechados:** a contenção do agente, a revisão da arquitetura e do código por IAs de outras empresas, e a confiança no resultado (veja o [diário](diario/README.md)).
+- **O laço autônomo está rodando:** em 3 de novembro, o FOX Studio trabalhou sozinho pela primeira vez. Escolheu, fez e validou quatro tarefas de madrugada, e parou sozinho quando a permissão acabou. O trabalho entrou no código principal depois da leitura de uma pessoa.
+- **O botão de parar que para de verdade:** a ordem de parada, mandada pelo celular, derruba o agente em segundos, mesmo com a máquina sobrecarregada de propósito.
+
 ## Próximos passos
 
-- já fechados: a contenção do agente, a revisão da arquitetura por IAs de outras empresas e a confiança no resultado (veja o [diário](diario/README.md));
-- revisão externa do código por IAs de outras empresas;
-- o laço autônomo: o FOX Studio escolhendo, executando e entregando tarefas sozinho, com as provas no lugar.
+- a primeira decisão tomada pela IA com a aprovação de uma pessoa pelo celular;
+- o porteiro de comandos: cada comando que o agente quiser rodar passa antes por uma conferência, e nada passa sem ela;
+- duas semanas de observação, com cada noite lida por uma pessoa, antes de o agente poder rodar comandos sozinho.
 
 ## Quem constrói
 

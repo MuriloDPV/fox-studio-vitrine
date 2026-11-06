@@ -18,3 +18,8 @@ Uma entrada por etapa fechada, em português simples: o que estava errado, como 
 - [O agente não dá a própria nota](2026-10-21-o-agente-nao-da-a-propria-nota.md) — a validação roda numa cópia, com a régua de antes do trabalho.
 - [O agente que não fica órfão](2026-10-21-o-agente-que-nao-fica-orfao.md) — toda caixa nasce com um vigia que a derruba no prazo.
 - [O ensaio com um agente trapaceiro](2026-10-22-o-ensaio-com-um-agente-trapaceiro.md) — um modelo de mentira trapaceando de propósito, e o que a validação pegou.
+
+## O laço autônomo
+
+- [A primeira noite sozinho](2026-11-03-a-primeira-noite-sozinho.md) — quatro tarefas escolhidas, feitas e validadas de madrugada, sem ninguém no teclado.
+- [O botão de parar que para de verdade](2026-11-06-o-botao-de-parar-que-para-de-verdade.md) — a parada que falhou numa prova, o conserto e a prova de novo, com a máquina sobrecarregada.
