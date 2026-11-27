@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/protect-yourself-final.png">
-    <img src="assets/protect-yourself.svg" width="100%" alt="Animated opening on a dark background. The words “Protect yourself.” appear. The orange full stop of the sentence then travels through four short abstract scenes: a box closing around it (contained), a network collapsing to a single line (one way out), a padlock locking (a person holds the key) and a log that only grows (nothing is erased). It ends on the FOX Studio logo, a fox inside a hexagon, with the name FOX Studio and the line “Protect yourself.”">
+    <img src="assets/protect-yourself.svg" width="100%" alt="Animated opening on a dark background. One word at a time in the centre of the screen, in hard cuts that get faster: the word “protect” in ten languages, starting with PROTEGER (Portuguese, in orange) and PROTECT (English), then French, German, Italian, Russian, Japanese, Chinese, Arabic and Hindi. The screen goes dark for a moment, and it ends on the FOX Studio logo, a fox inside a hexagon, with the name FOX Studio.">
   </picture>
 </p>
 

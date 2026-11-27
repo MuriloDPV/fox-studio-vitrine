@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/protect-yourself-final.png">
-    <img src="assets/protect-yourself.svg" width="100%" alt="Abertura animada em fundo escuro. A frase “Protect yourself.” aparece. O ponto final laranja da frase passa então por quatro cenas abstratas e curtas: uma caixa que se fecha em volta dele (contido), uma rede que se reduz a uma linha só (uma saída só), um cadeado que se tranca (a chave fica com uma pessoa) e um registro que só cresce (nada se apaga). Termina na logo do FOX Studio, uma raposa dentro de um hexágono, com o nome FOX Studio e a frase “Protect yourself.”">
+    <img src="assets/protect-yourself.svg" width="100%" alt="Abertura animada em fundo escuro. Uma palavra por vez no centro da tela, em cortes secos cada vez mais rápidos: a palavra “proteger” em dez línguas, começando por PROTEGER (português, em laranja) e PROTECT (inglês), depois francês, alemão, italiano, russo, japonês, chinês, árabe e hindi. A tela fica escura por um instante, e termina na logo do FOX Studio, uma raposa dentro de um hexágono, com o nome FOX Studio.">
   </picture>
 </p>
 
