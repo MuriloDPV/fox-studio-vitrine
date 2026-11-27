@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/protect-yourself-final.png">
-    <img src="assets/protect-yourself.svg" width="100%" alt="Animated opening on a dark background. One word at a time in the centre of the screen, in hard cuts that get faster: the word “protect” in ten languages, starting with PROTEGER (Portuguese, in orange) and PROTECT (English), then French, German, Italian, Russian, Japanese, Chinese, Arabic and Hindi. The screen goes dark for a moment, and it ends on the FOX Studio logo, a fox inside a hexagon, with the name FOX Studio.">
+    <img src="assets/protect-yourself.svg" width="100%" alt="Animated opening on a dark background. One word at a time in the centre of the screen, in hard cuts that get faster: the verb “to protect” in eight languages that share one root. PROTEGER (Portuguese, in orange), PROTECT (English), PROTÉGER (French), PROTEGGERE (Italian), PROTEGIR (Catalan), PROTEJA (Romanian), PROTEKTI (Esperanto) and, last, PROTEGERE (Latin, the root of them all). The screen goes dark for a moment, and it ends on the FOX Studio logo, a fox inside a hexagon, with the name FOX Studio.">
   </picture>
 </p>
 
