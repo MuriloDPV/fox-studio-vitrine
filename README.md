@@ -27,9 +27,9 @@ Most tools answer this by asking you to trust the agent. FOX Studio starts from 
 
 This is the high-level view. The internals stay private on purpose.
 
-1. **The agent is contained, and it holds no credentials.** Each run happens in its own isolated box, as an ordinary user without administrator rights, and it sees only the folder of that run. There is no credential inside the box for the agent to leak or misuse.
+1. **The agent is contained, and it holds no credential of the person or of the system.** Each run happens in its own isolated box, as an ordinary user without administrator rights, and it sees only the folder of that run. It has no access of its own to the database, the repository or the server. The only secret inside the box is the token it uses to talk to the model, and the network lets it reach only the model's API (item 2).
 2. **The agent's network is closed to a single destination.** Everything else is refused. Each connection is recorded when it opens and when it closes, and the record is compared with what the agent reported.
-3. **A person approves what is critical.** Actions that cannot be undone wait for a human, who approves from their own phone, with a password. The approval records who approved and when.
+3. **A person approves what is critical.** Actions that cannot be undone wait for a human, by one of two paths: a tap on the person's phone, for the requests the system makes, or a password typed by the person in their own terminal, for the most critical acts. The approval records who approved and when.
 4. **The history is append-only.** Nothing is erased or rewritten. A correction or a cancellation is a new line, with its reason, next to the line it corrects.
 5. **Validation and review are done by someone who is not the agent.** The system measures what changed on a clean copy of its own, with the rules from before the work started. The agent does not grade itself. A separate reviewer then reads the change, and a person reads it before it reaches the main branch.
 6. **Every defense has a test that proves it holds.** Each security test is also run with the defense removed on purpose, and it has to go red. A test that stays green without the defense proves nothing, so it does not count.
@@ -54,7 +54,7 @@ Each defense above has its own inverted test: defense removed, test red; defense
 ### Not proven yet
 
 - **The stop order against the real agent.** The measurement above used a test box. The same test on the real agent is still to come.
-- **Parts of the model with no public write-up yet.** The agent holding no credentials, the approval by password from the phone, and the append-only rule across the whole history are part of the design described above, but their proof is not in the public diary yet. Until an entry is published, read them as design.
+- **Parts of the model with no public write-up yet.** The agent holding no credential of the person or of the system, the approvals by phone and by password, and the append-only rule across the whole history are part of the design described above, but their proof is not in the public diary yet. Until an entry is published, read them as design.
 - **Long unattended work.** One night, four small tasks, read by a person in the morning. That is not evidence about weeks of unattended work or about large changes.
 - **Correct code.** Validation checks the acceptance criteria of a task. It does not prove that the code is free of bugs.
 - **An unbreakable box.** Containment makes a mistake smaller. It does not make an escape impossible, and this project does not say it does.

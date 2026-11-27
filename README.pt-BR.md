@@ -27,9 +27,9 @@ A maioria das ferramentas responde pedindo que você confie no agente. O FOX Stu
 
 Esta é a visão de alto nível. Os detalhes internos ficam privados de propósito.
 
-1. **O agente fica contido e não guarda credencial.** Cada execução roda numa caixa isolada só dela, como usuário comum, sem poderes de administrador, e enxerga só a pasta daquela execução. Não há credencial dentro da caixa para o agente vazar ou usar mal.
+1. **O agente fica contido e não guarda credencial da pessoa nem do sistema.** Cada execução roda numa caixa isolada só dela, como usuário comum, sem poderes de administrador, e enxerga só a pasta daquela execução. Ele não tem acesso próprio ao banco de dados, ao repositório nem ao servidor. O único segredo dentro da caixa é o token que ele usa para falar com o modelo, e a rede só o deixa chegar à API do modelo (item 2).
 2. **A rede do agente é fechada a um destino só.** Todo o resto é recusado. Cada conexão é registrada quando abre e quando fecha, e o registro é comparado com o que o agente relatou.
-3. **Uma pessoa aprova o que é crítico.** As ações que não têm volta esperam por uma pessoa, que aprova pelo próprio celular, com senha. A aprovação registra quem aprovou e quando.
+3. **Uma pessoa aprova o que é crítico.** As ações que não têm volta esperam por uma pessoa, por um de dois caminhos: um toque no celular dela, para os pedidos que o sistema faz, ou a senha digitada por ela no próprio terminal, para os atos mais críticos. A aprovação registra quem aprovou e quando.
 4. **O histórico só cresce.** Nada se apaga nem se reescreve. Uma correção ou uma desistência é uma linha nova, com o motivo, ao lado da linha que ela corrige.
 5. **A validação e a revisão são feitas por quem não é o agente.** O sistema mede o que mudou numa cópia limpa dele mesmo, com as regras de antes de o trabalho começar. O agente não dá a própria nota. Depois, um revisor separado lê a mudança, e uma pessoa lê antes de ela chegar ao código principal.
 6. **Cada defesa tem um teste que prova que ela segura.** Cada teste de segurança roda também com a defesa tirada de propósito, e tem de ficar vermelho. Um teste que continua verde sem a defesa não prova nada, e por isso não conta.
@@ -54,7 +54,7 @@ Cada defesa acima tem o seu teste invertido: defesa tirada, teste vermelho; defe
 ### Ainda não provado
 
 - **A ordem de parar contra o agente de verdade.** A medição acima usou uma caixa de teste. A mesma prova no agente de verdade ainda vem.
-- **Partes do modelo que ainda não têm entrada pública.** O agente sem credencial, a aprovação com senha pelo celular e a regra de só crescer no histórico inteiro fazem parte do desenho descrito acima, mas a prova deles ainda não está no diário público. Até uma entrada ser publicada, leia como desenho.
+- **Partes do modelo que ainda não têm entrada pública.** O agente sem credencial da pessoa nem do sistema, as aprovações pelo celular e pela senha, e a regra de só crescer no histórico inteiro fazem parte do desenho descrito acima, mas a prova deles ainda não está no diário público. Até uma entrada ser publicada, leia como desenho.
 - **Trabalho longo sem ninguém olhando.** Uma noite, quatro tarefas pequenas, lidas por uma pessoa de manhã. Isso não é evidência sobre semanas de trabalho sozinho nem sobre mudanças grandes.
 - **Código certo.** A validação confere os critérios de aceite de uma tarefa. Ela não prova que o código não tem defeito.
 - **Uma caixa que não quebra.** A contenção diminui o tamanho do erro. Ela não torna uma fuga impossível, e este projeto não diz que torna.
