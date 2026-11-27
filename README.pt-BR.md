@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/protect-yourself-final.png">
-    <img src="assets/protect-yourself.svg" width="100%" alt="Abertura animada em fundo escuro. Uma palavra por vez no centro da tela, em cortes secos cada vez mais rápidos: o verbo “proteger” em oito línguas da mesma raiz. PROTEGER (português, em laranja), PROTECT (inglês), PROTÉGER (francês), PROTEGGERE (italiano), PROTEGIR (catalão), PROTEJA (romeno), PROTEKTI (esperanto) e, por último, PROTEGERE (latim, a raiz de todas). A tela fica escura por um instante, e termina na logo do FOX Studio, uma raposa dentro de um hexágono, com o nome FOX Studio.">
+    <img src="assets/protect-yourself.svg" width="100%" alt="Abertura animada em fundo preto. Uma palavra por vez no centro da tela, em cortes secos cada vez mais rápidos, cada uma sobre a sua pintura abstrata em tons de cinza (um disco a pincel, uma órbita a pincel, órbitas concêntricas, uma aguada, um respingo de estrelas, uma esfera em hachura, um horizonte, uma carta celeste): o verbo “proteger” em oito línguas da mesma raiz. PROTEGER (português, em laranja), PROTECT (inglês), PROTÉGER (francês), PROTEGGERE (italiano), PROTEGIR (catalão), PROTEJA (romeno), PROTEKTI (esperanto) e, por último e um pouco mais demorado, PROTEGERE (latim, a raiz de todas). A tela fica preta por um instante, e termina na logo do FOX Studio, uma raposa dentro de um hexágono, com o nome FOX Studio.">
   </picture>
 </p>
 
