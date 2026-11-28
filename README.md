@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/protect-yourself-final.png">
-    <img src="assets/protect-yourself.svg" width="100%" alt="Animated opening on a black background. One word at a time in the centre of the screen, in hard cuts that get faster, each over its own abstract painting in greys (a brushed disc, a brushed orbit, concentric orbits, an ink wash, a spatter of stars, a hatched sphere, a horizon, a celestial chart): the verb “to protect” in eight languages that share one root. PROTEGER (Portuguese, in orange), PROTECT (English), PROTÉGER (French), PROTEGGERE (Italian), PROTEGIR (Catalan), PROTEJA (Romanian), PROTEKTI (Esperanto) and, last and a little longer, PROTEGERE (Latin, the root of them all). Then, in one more hard cut, it ends on the FOX Studio logo, a fox inside a hexagon, with the name FOX Studio.">
+    <img src="assets/protect-yourself.svg" width="100%" alt="Animated opening on a black background. One word at a time in the centre of the screen, in hard cuts that get faster, each over its own abstract painting in greys, moving slightly (a brushed disc, a brushed orbit, concentric orbits, an ink wash, a spatter of stars, a hatched sphere, a horizon, a celestial chart): the verb “to protect” in eight languages that share one root. PROTEGER (Portuguese, in orange), PROTECT (English), PROTÉGER (French), PROTEGGERE (Italian), PROTEGIR (Catalan), PROTEJA (Romanian), PROTEKTI (Esperanto) and, last and a little longer, PROTEGERE (Latin, the root of them all). Then, in one more hard cut, it ends on the FOX Studio logo, a fox inside a hexagon, with the name FOX Studio.">
   </picture>
 </p>
 
